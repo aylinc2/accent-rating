@@ -1,0 +1,69 @@
+{
+  "welcome": "Hoş geldiniz",
+  "language_selection": {
+    "title": "Lütfen Dil Seçiniz / Bitte wählen Sie eine Sprache",
+    "turkish": "Türkçe",
+    "german": "Deutsch"
+  },
+  "intro": {
+    "survey_finished": "Demografik soruları yanıtladığınız için teşekkür ederiz.",
+    "welcome_task": [
+      "Hoş geldiniz.",
+      "Demografik soruları yanıtladığınız için teşekkür ederiz.",
+      "Bir sonraki bölüme geçmeye hazırsanız lütfen “{{button}}” butonuna tıklayın."
+    ],
+    "linguistic_study_phase": [
+      "Bu çalışmada çeşitli konuşmacılara ait kısa ses kayıtlarını dinleyeceksiniz. Her kaydı dinledikten sonra konuşmacının aksanını ve çeşitli özelliklerini değerlendirmeniz istenecektir.",
+      "Göreviniz, her kaydı dikkatle dinlemek ve ardından değerlendirmenizi yapmaktır.",
+      "Her ses kaydı en fazla iki kez dinlenebilir. Bazı ses kayıtları cümlenin ortasında kesilebilir. Bu durum değerlendirmenizi etkilememelidir.",
+      "Doğru ya da yanlış cevap yoktur. Bizim için önemli olan sizin kişisel değerlendirmenizdir.",
+      "Çalışmayı mümkünse kulaklıkla ve sessiz bir ortamda tamamlamanızı öneriyoruz. Hazır olduğunuzda devam etmek için “{{button}}” butonuna tıklayın."
+    ],
+    "practice_intro": [
+      "Asıl göreve başlamadan önce size birkaç örnek göstereceğiz.",
+      "Bu örnekler, görevin işleyişine alışmanıza yardımcı olacaktır.",
+      "Hazır olduğunuzda örneklere başlamak için “{{button}}” butonuna tıklayın."
+    ],
+    "practice_end": [
+      "Örnekler burada sona eriyor.",
+      "Bir sonraki sayfada asıl görev başlayacaktır.",
+      "Hazır olduğunuzda devam etmek için “{{button}}” butonuna tıklayın."
+    ]
+  },
+  "buttons": {
+    "start": "Başla",
+    "continue": "Devam",
+    "next": "Sonraki",
+    "previous": "Önceki",
+    "confirm": "Onayla",
+    "start_test": "Testi Başlat",
+    "start_experiment": "Deneye Başla"
+  },
+  "options": {
+    "new_sentence": "Yeni cümle"
+  },
+  "feedback": {
+    "already_participated": "Bu çalışmaya daha önce katılım sağladınız. Tekrar katılamazsınız.",
+    "completion": "Deney tamamlandı. Teşekkür ederiz.",
+    "saving_data": "Veriler kaydediliyor. Lütfen bu sayfayı kapatmayın.",
+    "save_error_title": "Veri otomatik kaydedilemedi.",
+    "save_error_text": "Lütfen aşağıdaki butona tıklayarak sonuç dosyasını bilgisayarınıza indirin ve araştırmacıya iletin.",
+    "download_button": "Sonuçları İndir (.json)"
+  },
+  "demographics": {
+    "validation": {
+      "required": "Lütfen bu soruyu yanıtlayın.",
+      "age_range": "Lütfen 18 ile 120 arasında geçerli bir yaş giriniz.",
+      "invalid_year": "Lütfen geçerli bir yıl giriniz."
+    },
+    "questions": {
+      "not_applicable": "Cevap vermek istemiyorum",
+      "other_text": "Diğer (Lütfen belirtiniz)",
+      "other_placeholder": "Buraya yazınız..."
+    }
+  },
+  "setup": {
+    "preparing": "Deney hazırlanıyor...",
+    "error": "Kurulum Hatası"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "welcome": "Willkommen",
+  "language_selection": {
+    "title": "Lütfen Dil Seçiniz / Bitte wählen Sie eine Sprache",
+    "turkish": "Türkçe",
+    "german": "Deutsch"
+  },
+  "intro": {
+    "survey_finished": "Vielen Dank, dass Sie die demografischen Fragen beantwortet haben.",
+    "welcome_task": [
+      "Willkommen.",
+      "Vielen Dank, dass Sie die demografischen Fragen beantwortet haben.",
+      "Wenn Sie bereit sind, mit dem nächsten Abschnitt fortzufahren, klicken Sie bitte auf „{{button}}“."
+    ],
+    "linguistic_study_phase": [
+      "In dieser Studie werden Sie kurze Audioaufnahmen verschiedener Sprecherinnen und Sprecher hören. Nach jeder Aufnahme werden Sie gebeten, den Akzent sowie verschiedene Eigenschaften der sprechenden Person zu bewerten.",
+      "Ihre Aufgabe ist es, sich jede Aufnahme aufmerksam anzuhören und anschließend Ihre Einschätzung abzugeben.",
+      "Jede Audioaufnahme kann höchstens zweimal abgespielt werden. Einige Audioaufnahmen können mitten im Satz enden. Dies sollte Ihre Bewertung nicht beeinflussen.",
+      "Es gibt keine richtigen oder falschen Antworten. Uns interessiert Ihre persönliche Einschätzung.",
+      "Wir empfehlen Ihnen, die Studie möglichst mit Kopfhörern und in einer ruhigen Umgebung durchzuführen. Wenn Sie bereit sind, klicken Sie auf „{{button}}“, um fortzufahren."
+    ],
+    "practice_intro": [
+      "Bevor die eigentliche Aufgabe beginnt, zeigen wir Ihnen zunächst einige Beispiele.",
+      "Diese sollen Ihnen helfen, sich mit der Aufgabe und dem Ablauf vertraut zu machen.",
+      "Wenn Sie bereit sind, klicken Sie auf „{{button}}“, um mit den Beispielen zu beginnen."
+    ],
+    "practice_end": [
+      "Damit sind die Beispiele abgeschlossen.",
+      "Auf der nächsten Seite beginnt die eigentliche Aufgabe.",
+      "Wenn Sie bereit sind, klicken Sie auf „{{button}}“, um fortzufahren."
+    ]
+  },
+  "buttons": {
+    "start": "Starten",
+    "continue": "Weiter",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "confirm": "Bestätigen",
+    "start_test": "Test starten",
+    "start_experiment": "Experiment starten"
+  },
+  "feedback": {
+    "already_participated": "Sie haben bereits an dieser Studie teilgenommen. Eine erneute Teilnahme ist nicht möglich.",
+    "completion": "Das Experiment ist abgeschlossen. Vielen Dank.",
+    "saving_data": "Daten werden gespeichert. Bitte schließen Sie diese Seite nicht.",
+    "save_error_title": "Daten konnten nicht automatisch gespeichert werden.",
+    "save_error_text": "Bitte klicken Sie auf die Schaltfläche unten, um die Ergebnisdatei auf Ihren Computer herunterzuladen und an den Versuchsleiter zu senden.",
+    "download_button": "Ergebnisse herunterladen (.json)"
+  },
+  "demographics": {
+    "validation": {
+      "required": "Bitte beantworten Sie diese Frage.",
+      "age_range": "Bitte geben Sie ein gültiges Alter zwischen 18 und 120 Jahren ein.",
+      "invalid_year": "Bitte geben Sie ein gültiges Jahr ein."
+    },
+    "questions": {
+      "not_applicable": "Keine Angabe",
+      "other_text": "Sonstiges",
+      "other_placeholder": "Hier angeben..."
+    }
+  },
+  "setup": {
+    "preparing": "Vorbereitung...",
+    "error": "Fehler"
+  }
+}
