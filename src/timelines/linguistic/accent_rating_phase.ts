@@ -279,7 +279,7 @@ export function createAccentRatingTimeline(
                         ">
                           <input
                             type="radio"
-                            name="speaker-trustworthiness"
+                            name="speaker-trustworthiness-${stimulus.id}"
                             value="${value}"
                             style="
                               width:20px;
@@ -316,7 +316,7 @@ export function createAccentRatingTimeline(
                         ">
                           <input
                             type="radio"
-                            name="speaker-education"
+                            name="speaker-education-${stimulus.id}"
                             value="${value}"
                             style="
                               width:20px;
@@ -353,7 +353,7 @@ export function createAccentRatingTimeline(
                         ">
                           <input
                             type="radio"
-                            name="speaker-urbanity"
+                            name="speaker-urbanity-${stimulus.id}"
                             value="${value}"
                             style="
                               width:20px;
@@ -390,7 +390,7 @@ export function createAccentRatingTimeline(
                         ">
                           <input
                             type="radio"
-                            name="speaker-wealth"
+                            name="speaker-wealth-${stimulus.id}"
                             value="${value}"
                             style="
                               width:20px;
@@ -501,22 +501,22 @@ export function createAccentRatingTimeline(
           ) => {
             const trustworthiness =
               document.querySelector(
-                'input[name="speaker-trustworthiness"]:checked'
+                `input[name="speaker-trustworthiness-${stimulus.id}"]:checked`
               ) as HTMLInputElement | null;
 
             const education =
               document.querySelector(
-                'input[name="speaker-education"]:checked'
+                `input[name="speaker-education-${stimulus.id}"]:checked`
               ) as HTMLInputElement | null;
 
             const urbanity =
               document.querySelector(
-                'input[name="speaker-urbanity"]:checked'
+                `input[name="speaker-urbanity-${stimulus.id}"]:checked`
               ) as HTMLInputElement | null;
 
             const wealth =
               document.querySelector(
-                'input[name="speaker-wealth"]:checked'
+                `input[name="speaker-wealth-${stimulus.id}"]:checked`
               ) as HTMLInputElement | null;
 
             const errorMessage =
@@ -570,6 +570,14 @@ export function createAccentRatingTimeline(
       },
 
       on_load: () => {
+        document
+        .querySelectorAll(
+          `input[name^="speaker-"]`
+        )
+        .forEach((input) => {
+          (input as HTMLInputElement).checked = false;
+        });
+        
         const audio =
           document.getElementById(
             stimulus.id
