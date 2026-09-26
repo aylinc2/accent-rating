@@ -180,9 +180,8 @@ export function createForeignFollowupTimeline(
               `
               : `
                 <p>
-                  Bu iki ses kaydını yabancı aksanın en belirgin olduğu kayıtlar
-                  olarak değerlendirdiniz. Şimdi bu iki kaydı yeniden dinlemenizi
-                  rica ediyoruz.
+                İki adet ses kaydını yabancı aksanın en belirgin olduğu kayıtlar olarak değerlendirdiniz.
+                Şimdi bu iki kaydı yeniden dinlemenizi rica ediyoruz.
                 </p>
               `
             : selectedCount === 1
@@ -195,9 +194,8 @@ export function createForeignFollowupTimeline(
               `
               : `
                 <p>
-                  Sie haben diese beiden Aufnahmen als am stärksten
-                  fremdsprachig akzentuiert bewertet. Wir möchten Sie nun
-                  bitten, beide Aufnahmen noch einmal anzuhören.
+                  Sie haben zwei Audioaufnahmen als diejenigen bewertet, in denen der fremdsprachige Akzent am deutlichsten ausgeprägt ist. 
+                  Wir bitten Sie nun, sich diese beiden Aufnahmen noch einmal anzuhören.
                 </p>
               `
           : "";
@@ -246,7 +244,7 @@ export function createForeignFollowupTimeline(
             type: "comment",
             name: "foreign_accent_explanation",
             title: isTurkish()
-              ? "Bu konuşmanın size neden yabancı aksanlı geldiğini kısaca açıklayınız. Değerlendirmenizi etkileyen özellikleri mümkün olduğunca açık bir şekilde belirtiniz. Örneğin telaffuz, tonlama, ritim, belirli sesler veya diğer dilsel özelliklerden söz edebilirsiniz. Doğru veya yanlış cevap yoktur; kişisel izleniminizle ilgileniyoruz."
+              ? "Bu kaydın size neden yabancı aksanlı geldiğini kısaca açıklayınız. Değerlendirmenizi etkileyen özellikleri mümkün olduğunca açık bir şekilde belirtiniz. Örneğin telaffuz, tonlama, ritim, belirli sesler veya diğer dilsel özelliklerden söz edebilirsiniz. Doğru veya yanlış cevap yoktur; kişisel izleniminizle ilgileniyoruz."
               : "Bitte erklären Sie kurz, warum diese Aufnahme für Sie fremdsprachig akzentuiert klang. Beschreiben Sie möglichst konkret, welche Merkmale Ihre Einschätzung beeinflusst haben, zum Beispiel Aussprache, Intonation, Rhythmus, einzelne Laute oder andere sprachliche Merkmale. Es gibt keine richtigen oder falschen Antworten; uns interessiert Ihr persönlicher Eindruck.",
             isRequired: true,
             rows: 6,

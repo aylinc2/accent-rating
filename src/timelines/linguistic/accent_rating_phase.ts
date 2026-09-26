@@ -571,7 +571,7 @@ export function createAccentRatingTimeline(
 
       on_load: () => {
         document
-        .querySelectorAll(
+         .querySelectorAll(
           `input[name^="speaker-"]`
         )
         .forEach((input) => {

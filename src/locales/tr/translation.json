@@ -20,13 +20,13 @@
       "Çalışmayı mümkünse kulaklıkla ve sessiz bir ortamda tamamlamanızı öneriyoruz. Hazır olduğunuzda devam etmek için “{{button}}” butonuna tıklayın."
     ],
     "practice_intro": [
-      "Asıl göreve başlamadan önce size birkaç örnek göstereceğiz.",
-      "Bu örnekler, görevin işleyişine alışmanıza yardımcı olacaktır.",
+      "Asıl deneye başlamadan önce size birkaç örnek göstereceğiz.",
+      "Bu örnekler, deneyin işleyişine alışmanıza yardımcı olacaktır.",
       "Hazır olduğunuzda örneklere başlamak için “{{button}}” butonuna tıklayın."
     ],
     "practice_end": [
       "Örnekler burada sona eriyor.",
-      "Bir sonraki sayfada asıl görev başlayacaktır.",
+      "Bir sonraki sayfada asıl deney başlayacaktır.",
       "Hazır olduğunuzda devam etmek için “{{button}}” butonuna tıklayın."
     ]
   },

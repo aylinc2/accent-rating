@@ -3,8 +3,8 @@ export const FAVICON_DATA_URL =
 
 export const GLOBAL_CONFIG = {
   CHECK_PREVIOUS_PARTICIPATION: true,
-  SUPABASE_URL: "https://khgtbanehpmhnqewxgsg.supabase.co",
-  SUPABASE_ANON_KEY: "sb_publishable_FH5v9XGBtcTUlgFsXxgbxg_2ZG1_vOO",
+  SUPABASE_URL: "https://voaxfyyfwcfnrwdrwudx.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_KU8b7LXjR58az52SnmbQwA_YjTENSN-",
   MAX_PRELOAD_TIME_MS: 30000,
   THEME_STORAGE_KEY: "theme",
   EXPERIMENT_VERSION: "v1.0",
@@ -12,7 +12,7 @@ export const GLOBAL_CONFIG = {
 
 export const DATAPIPE_IDS = {
   linguistic: {
-    de: "iJT0OqZnKvDT",
-    tr: "BpMS2zQypzAm",
+    de: "ncpTCV2dSvRO",
+    tr: "aenIrrM0XqTw",
   },
 };
