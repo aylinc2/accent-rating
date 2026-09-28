@@ -3,8 +3,8 @@ export const FAVICON_DATA_URL =
 
 export const GLOBAL_CONFIG = {
   CHECK_PREVIOUS_PARTICIPATION: true,
-  SUPABASE_URL: "https://voaxfyyfwcfnrwdrwudx.supabase.co",
-  SUPABASE_ANON_KEY: "sb_publishable_KU8b7LXjR58az52SnmbQwA_YjTENSN-",
+  SUPABASE_URL: "https://fqgjcmdamaqbuuxnaexo.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_MSyxlyUNWHB66uYdN7ewjA_PzZaEfSe",
   MAX_PRELOAD_TIME_MS: 30000,
   THEME_STORAGE_KEY: "theme",
   EXPERIMENT_VERSION: "v1.0",
