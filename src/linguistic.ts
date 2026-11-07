@@ -132,7 +132,27 @@ export async function run(options: RunOptions) {
         </div>
       `;
     }
+    if (finalLang === Language.TR) {
+      const displayElement = jsPsych.getDisplayElement();
+      
+      if (displayElement) {
+        displayElement.innerHTML = `
+         <div style="
+         max-width: 700px;
+         margin: 80px auto;
+         text-align: center;
+         padding: 20px;
+        ">
+         <p style="font-size: 1.25rem; line-height: 1.7;">
+          Bu çalışma artık yeni katılımcı kabul etmemektedir.
+          İlginiz için teşekkür ederiz.
+        </p>
+      </div>
+    `;
+  }
 
+  return shouldReturnJsPsych ? jsPsych : undefined;
+}
     try {
       const participantNumber =
         await registerParticipant(
