@@ -132,7 +132,7 @@ export async function run(options: RunOptions) {
         </div>
       `;
     }
-    if (finalLang === Language.TR) {
+     if (false && finalLang === Language.TR) {
       const displayElement = jsPsych.getDisplayElement();
       
       if (displayElement) {
